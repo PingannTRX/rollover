@@ -3,7 +3,6 @@ import requests
 import pandas as pd
 import smtplib
 from email.mime.text import MIMEText
-import matplotlib.pyplot as plt
 import plotly.express as px
 
 # Streamlit UI components
