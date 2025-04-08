@@ -9,7 +9,7 @@ st.markdown("### Monitor High-Risk Treasury Events")
 
 # Scrape data (replace with actual URL and logic)
 def fetch_treasury_data():
-    url = 'https://www.treasurydirect.gov/govt/reports/pd/mspd/mspd.html'  # Update this URL
+    url = 'https://api.fiscaldata.treasury.gov/services/api/fiscal_service/'  # Update this URL
     try:
         response = requests.get(url)
         response.raise_for_status()  # Raise an HTTPError for bad responses
