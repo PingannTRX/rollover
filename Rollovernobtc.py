@@ -2,8 +2,6 @@ import streamlit as st
 import requests
 import pandas as pd
 import smtplib
-from email.mime.text import MIMEText
-import plotly.express as px
 
 # Streamlit UI components
 st.title("UST Rollover & Fed QT Alert System")
